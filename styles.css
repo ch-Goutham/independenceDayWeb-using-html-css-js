@@ -1,0 +1,178 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+/* Header */
+.head {
+    background-image: linear-gradient(#FF671F, #FFFFFF, #046A38);
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    
+}
+.img{
+  mix-blend-mode: multiply;
+  padding-bottom: 100px;
+    filter: contrast(1);
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25vw;
+}
+.nav{
+    height: 10vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    
+   
+}
+.Home{
+    height: 50vh;
+    width: 99vw;
+    
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.about img{
+  height: 40vh;
+  width: 39vw;
+}
+.about p{
+    width: 60vw;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.History{
+    height: 65vh;
+    width: 99vw;
+    padding-left: 5px;
+   
+}
+.his{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    background-color: whitesmoke;
+
+}
+.his img{
+    padding-top: 50px;
+    height: 60vh;
+}
+
+.sub{
+    height: 70vh;
+    width: 98%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.subs{
+    height: 100%;
+    width: 18%;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Register-form{
+    height: 60vh;
+    width: 99vw;
+    /* background-color: #FF671F; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.field{
+    height: 53vh;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow{
+    height: 30vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: #183b56;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.icons>img{
+    height: 60px;
+}
+.quotes{
+    height: 58vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+.qut{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    font-size: large;
+    padding-left: 10px;
+  
+}
+.im{
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
